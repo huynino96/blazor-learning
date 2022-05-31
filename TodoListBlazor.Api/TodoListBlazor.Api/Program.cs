@@ -4,6 +4,9 @@ using TodoListBlazor.Api.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//var host = CreateHostBuilder(args).Build();
+
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
